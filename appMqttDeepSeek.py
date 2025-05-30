@@ -26,12 +26,12 @@ MQTT_TOPIC_BASE = 'kosine/smartmileNew/assets/ups/data/'+devId
 MQTT_CLIENT_ID = location+str(random.randint(0, 1000))
 MQTT_USERNAME = 'kosine'
 MQTT_PASSWORD = 'kosine@210620'
-MQTT_KEEPALIVE = 60
+MQTT_KEEPALIVE = 120
 
 # Data Buffering Settings
 DB_FILE = 'sensor_data.db'
 APP_PATH = '/root/work/ups/db'
-SEND_INTERVAL_SECONDS = 10
+SEND_INTERVAL_SECONDS = 60
 
 # Network Connectivity Check
 NETWORK_CHECK_HOST = MQTT_BROKER_HOST
