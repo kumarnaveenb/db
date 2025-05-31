@@ -4,7 +4,7 @@ START=90
 STOP=10
 USE_PROCD=1
 
-APP_NAME="appMqtt.py"
+APP_NAME="appMqttAutoReconFlag.py"
 APP_PATH="/root/work/ups/db"
 PYTHON_EXEC="/usr/bin/python"
 LOG_FILE="/var/log/appMqtt.log"
