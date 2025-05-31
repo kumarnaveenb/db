@@ -9,7 +9,7 @@ from minimalmodbus import * # Importing all global variables from minimalmodbus
 
 # Data Buffering Settings
 DB_FILE = '/root/work/ups/db/sensor_data.db'
-READ_INTERVAL_SECONDS = 600 # How often to read sensors
+READ_INTERVAL_SECONDS = 60 # How often to read sensors
 
 
 # --- Global Flags and Locks ---
